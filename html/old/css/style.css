@@ -1,0 +1,110 @@
+body{
+	background: #F1F1F1 none repeat scroll 0px 0px;
+	color: #010101;
+	font-family: 'Lucida Grande', Tahoma, Verdana, Helvetical, sans-serif;
+}
+
+#main{
+	background: #fff;
+	padding: 10px;
+	overflow: hidden;
+}
+
+#header {
+	padding: 5px;
+	text-align: right;
+}
+#header div {
+  padding:5px;
+}
+#eventos ul{
+	list-style: none;
+}
+
+#sidebar{
+	float:right;
+	width: 30%;
+	
+	padding: 5px;
+	padding-top: 20px;
+}
+
+#eventos{
+	float: left;
+	width: 65%;
+	border-right-color: #cccccc;
+	border-right-style: dotted;
+	border-right-width: 1px;	
+	padding-right: 5px;	
+}
+.evento div{
+	float: left;
+	margin: 5px;
+	padding: 5px;
+}
+
+.evento div:first-child {
+	width: 10%;
+	text-align: center;
+}
+.evento div:last-child {
+	width: 80%;
+}
+
+#login{
+	float: left;
+	width: 41%;
+}
+#cadastro{
+	border-left-color: #cccccc;
+	border-left-style: dotted;
+	border-left-width: 1px;	
+	padding-left: 15px;
+	float: right;
+	width: 55%;
+}
+
+input, textarea {
+    border-color: #C4C4C4 #C4C4C4 #E9E9E9 #E9E9E9;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 16px;
+    padding: 5px;
+}
+.buttons {
+	text-align: right;
+}
+.button {
+	padding: 5px 10px;
+	display: inline;
+	background: #777 url('../images/button.png') repeat-x bottom;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	text-shadow: 1px 1px #666;
+	text-decoration:none;
+ }
+.button:hover {
+	background-position: 0 center;
+ }
+.button:active {
+	background-position: 0 top;
+	position: relative;
+	top: 1px;
+	padding: 6px 10px 4px;
+ }
+.button.red { background-color: #e50000; }
+.button.purple { background-color: #9400bf; }
+.button.green { background-color: #58aa00; }
+.button.orange { background-color: #ff9c00; }
+.button.blue { background-color: #2c6da0; }
+.button.black { background-color: #333; }
+.button.white { background-color: #fff; color: #000; text-shadow: 1px 1px #fff; }
+.button.small { font-size: 75%; padding: 3px 7px; }
+.button.small:active { padding: 4px 7px 2px; background-position: 0 top; }
+.button.large { font-size: 125%; padding: 7px 12px; }
+.button.large:active { padding: 8px 12px 6px; background-position: 0 top; }
